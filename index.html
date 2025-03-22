@@ -2,84 +2,145 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pamidi Naveen Kumar - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio - Naveen Kumar</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Naveen Kumar</a>
+            <a class="navbar-brand" href="#">Naveen Kumar Pamidi</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#connect">Connect</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <header class="hero text-center text-white">
-        <div class="container">
-            <h1>Pamidi Naveen Kumar</h1>
-            <p>Web Developer | Java Programmer | SQL Enthusiast</p>
-            <a href="#contact" class="btn btn-primary">Hire Me</a>
+    <!-- Home Section -->
+    <section id="home" class="vh-100 d-flex align-items-center justify-content-center text-center text-white bg-primary">
+        <div>
+            <h1>Welcome to My Portfolio</h1>
+            <p>Aspiring Java Developer</p>
         </div>
-    </header>
+    </section>
 
     <!-- About Section -->
-    <section id="about" class="container my-5">
+    <section id="about" class="container py-5">
         <h2 class="text-center">About Me</h2>
-        <p class="text-center">I am a passionate web developer with skills in Java, SQL, and frontend technologies. Looking for opportunities to work and grow in the tech industry.</p>
+        <div class="row align-items-center">
+            <div class="col-md-4 text-center">
+                <img src="my-profile.jpg" class="rounded-circle img-fluid" width="200" alt="Profile Picture">
+            </div>
+            <div class="col-md-8">
+                <p>Hello! I'm <strong>Naveen Kumar</strong>, a passionate Java Developer and Web Developer.</p>
+                <p>Experienced in <strong>Core Java, JDBC, Servlets & JSP, Oracle SQL, HTML, CSS, JavaScript, Bootstrap</strong>. Currently learning <strong>Spring Framework</strong>.</p>
+            </div>
+        </div>
     </section>
 
     <!-- Skills Section -->
     <section id="skills" class="bg-light py-5">
         <div class="container">
             <h2 class="text-center">Skills</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <h4>Programming</h4>
-                    <ul>
-                        <li>Core Java</li>
-                        <li>SQL (Oracle, DDL, DML, DQL)</li>
-                        <li>JDBC</li>
-                    </ul>
+            <div class="row text-center">
+                <div class="col-md-4"><h5>Java</h5></div>
+                <div class="col-md-4"><h5>JDBC & SQL</h5></div>
+                <div class="col-md-4"><h5>HTML, CSS, JS</h5></div>
+                <div class="col-md-4"><h5>Bootstrap</h5></div>
+                <div class="col-md-4"><h5>Spring Framework</h5></div>
+                <div class="col-md-4"><h5>JSP & Servlets</h5></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container py-5">
+        <h2 class="text-center">Projects(Hands-on projects are yet to be added)</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">Description of Project 1</p>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <h4>Web Development</h4>
-                    <ul>
-                        <li>HTML, CSS, JavaScript</li>
-                        <li>Bootstrap</li>
-                        <li>Servlets</li>
-                    </ul>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Description of Project 2.</p>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <h4>Tools & Frameworks</h4>
-                    <ul>
-                        <li>SDLC, STLC</li>
-                        <li>Windows OS</li>
-                    </ul>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 3</h5>
+                        <p class="card-text">Description of Project 3.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 4</h5>
+                        <p class="card-text">Description of Project 4.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 5</h5>
+                        <p class="card-text">Description of Project 5.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 6</h5>
+                        <p class="card-text">Description of Project 6.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="container my-5">
-        <h2 class="text-center">Contact Me</h2>
-        <p class="text-center">Email: <a href="mailto:naveenkumarwork7@gmail.com">naveenkumarwork7@gmail.com</a></p>
-        <p class="text-center">Phone: +91-9704102942</p>
+    <!-- Connect Section -->
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <div class="text-center mt-4">
+                <h4>Connect with me</h4>
+                <a href="https://github.com/naveenk-dev" class="btn btn-dark m-2" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/naveen-kumar-pamidi" class="btn btn-primary m-2" target="_blank">LinkedIn</a>
+            </div>
+        </div>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Smooth Scroll JavaScript -->
+    <script>
+        document.querySelectorAll('a.nav-link').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>

@@ -1,17 +1,16 @@
 body {
+    background-color: #f8f9fa;
     font-family: Arial, sans-serif;
 }
 
-.hero {
-    background: linear-gradient(to right, #007bff, #6610f2);
-    padding: 80px 0;
+h1, h2 {
+    color: #007bff;
 }
 
-.hero h1 {
-    font-size: 3rem;
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
 }
 
-.hero p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
+.list-group-item {
+    font-size: 18px;
 }
